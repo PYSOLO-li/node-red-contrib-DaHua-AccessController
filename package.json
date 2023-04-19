@@ -1,9 +1,11 @@
 {
-    "name" : "node-red-contrib-DaHua-Access-Controller",
-    ...
+    "name" : "node-red-contrib-DaHua-access-controller",
+    "version" : "0.0.1",
+    "description": "A Node-RED integration of Dahua network devices (Access Controller)",
     "node-red" : {
         "nodes": {
-            "Access-Controller": "Access-Controller.js"
+            "dahua-accesscontroller": "dahua-accesscontroller/dahua-acesscontroller.js",
+            "dahua-device-accesscontroller-config": "dahua-device/dahua-accesscontroller-config.js"
         }
     }
 }
